@@ -145,7 +145,7 @@ git clone https://github.com/Ivo-B/lightning-hydra-template
 cd lightning-hydra-template
 
 # [OPTIONAL] create conda environment
-conda create -p "$PWD/.envs/py39" python=3.9  
+conda create -p "$PWD/.envs/py39" python=3.9
 conda activate "$PWD/.envs/py39"
 
 # install requirements
