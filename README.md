@@ -141,18 +141,15 @@ The directory structure of new project looks like this:
 
 ```bash
 # clone project
-git clone https://github.com/ashleve/lightning-hydra-template
+git clone https://github.com/Ivo-B/lightning-hydra-template
 cd lightning-hydra-template
 
 # [OPTIONAL] create conda environment
-conda create -n myenv python=3.9
-conda activate myenv
-
-# install pytorch according to instructions
-# https://pytorch.org/get-started/
+conda create -p "$PWD/.envs/py39" python=3.9  
+conda activate "$PWD/.envs/py39"
 
 # install requirements
-pip install -r requirements.txt
+poetry install
 ```
 
 Template contains example with MNIST classification.<br>
