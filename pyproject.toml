@@ -37,6 +37,7 @@ sh = "^2.0.7"
 mpire = "^2.3.3"
 icecream = "^2.1.1"
 pre-commit-update = "^0.3.2"
+pytest-cov = {extras = ["toml"], version = "^5.0.0"}
 
 [[tool.poetry.source]]
 name = "pytorch-cuda"
